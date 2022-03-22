@@ -25,7 +25,7 @@ def guessing_game(attempts):
     return attempts
 
 if __name__ == '__main__':
-    COMP_NUMBER = random.randint(1, 101)
+    COMP_NUMBER = random.randint(1, 100)
     print(logo)
     print('Welcome to the Number Guessing Game!\nI\'m thinking of a number between 1 and 100. ')
     DIFFICULTY = input('Choose a difficulty. Type \'easy\' or \'hard\': ')
